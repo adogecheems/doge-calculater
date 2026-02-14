@@ -1,0 +1,7 @@
+{
+  "pages": {
+    "index": "pages/index/index.vue",
+    "info": "pages/info/info.vue",
+    "license": "pages/license/license.vue"
+  }
+}

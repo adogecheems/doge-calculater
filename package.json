@@ -1,0 +1,45 @@
+{
+  "name": "Doge计算器",
+  "author": "adogecheems",
+  "appid": "8001145141919810",
+  "version": "1.0.0",
+  "description": "一款为有道词典笔OS设计的计算器程序",
+  "type": "module",
+  "icon": "app_icon.png",
+  "quickjs": {
+    "version": "20200705",
+    "bigNum": false
+  },
+  "simulator": {
+    "path": "simulator",
+    "page": ""
+  },
+  "single-js-bundle": false,
+  "scripts": {
+    "start": "aiot-cli preview",
+    "build": "aiot-cli -p",
+    "build:dev": "aiot-cli",
+    "build:bin": "aiot-cli -q -p",
+    "build:prod": "aiot-cli -c -q -p",
+    "build:bin-nopack": "aiot-cli -q",
+    "build:web": "aiot-cli build-web",
+    "build:simulator": "aiot-cli simulator ./",
+    "upload": "aiot-cli upload -n",
+    "check": "aiot-cli check",
+    "check:beta": "aiot-cli check -b"
+  },
+  "keywords": [
+    "iot",
+    "miniapp",
+    "youdao",
+    "calculator",
+    "dictpen",
+    "dict",
+    "dictionary",
+    "pen"
+  ],
+  "dependencies": {
+    "falcon-ui": "^2.0.2",
+    "mathjs": "^10"
+  }
+}

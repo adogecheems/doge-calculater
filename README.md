@@ -73,4 +73,6 @@ npm run build:prod
 使用的依赖：`mathjs`, `fs(haasui 原生)`  
 许可证：AGPLv3
 
+"Doge" 是“词典笔 OS 通用生态系统”的意思 (Dictpen OS Generic Ecosystem) 🐶
+
 如果对你有什么帮助，请给我一个 star ⭐️～

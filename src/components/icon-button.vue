@@ -15,8 +15,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import '../styles/md-color.less';
-
 .button {
     width: 20vh;
     height: 20vh;

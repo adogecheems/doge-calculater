@@ -19,6 +19,10 @@
 560x170(S6 pro):
 ![560x170(S6 pro)](https://cdn.mmoe.work/public/doge-calculator/560*170.png)
 
+## 实机
+
+![实机演示](https://cdn.mmoe.work/public/doge-calculator/example.jpg)
+
 ## 安装
 
 ### 直接安装

@@ -28,6 +28,8 @@ export default class CalculatorCore {
         this.result = null; // 计算结果
         this.parensStack = []; // 括号栈
         this.isDotActive = false; // 小数点是否激活
+
+        this._patchUnit();
     }
 
     warmUp() {
@@ -179,7 +181,7 @@ export default class CalculatorCore {
         let lastExpr = this.getLastExpr();
         if (lastExpr.willLookAhead) {
             return null;
-        }
+        } // 
 
         let exprsStr = this.getExprs(); // 获取当前表达式的字符串表示，并将其传递给 math.js 进行计算。这个字符串表示已经包含了必要的括号来确保表达式的完整性。
 

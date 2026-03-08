@@ -18,10 +18,7 @@
                         <text class="description-text">许可证共享</text>
                     </div>
                 </div>
-                <div class="info-card" v-for="(value, item) in info" :key="item">
-                    <text class="item-text">{{ item }}</text>
-                    <text class="value-text">{{ value }}</text>
-                </div>
+                <InfoCard :value="value" :item="item" v-for="(value, item) in info" :key="item" />
             </div>
         </scroller>
     </div>
@@ -30,6 +27,7 @@
 <script>
 import ButtonColumn from '../../components/button-column.vue';
 import IconButton from '../../components/icon-button.vue';
+import InfoCard from '../../components/info-card.vue';
 const meta = $falcon.$app.$meta
 
 export default {
@@ -37,6 +35,7 @@ export default {
     components: {
         ButtonColumn,
         IconButton,
+        InfoCard,
     },
     data() {
         return {
@@ -90,28 +89,5 @@ export default {
     color: @on-primary;
     font-size: 15vh;
     font-weight: bold;
-}
-
-.info-card {
-    width: 80%;
-    margin-bottom: 5vh;
-    padding: 8vh 12vh;
-    border-radius: 8vh;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: @primary;
-}
-
-.item-text {
-    color: @on-primary;
-    font-size: 12vh;
-}
-
-.value-text {
-    text-align: right;
-    max-width: 60%;
-    color: @neutral;
-    font-size: 10vh;
 }
 </style>

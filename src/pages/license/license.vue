@@ -22,7 +22,7 @@
 
 .license {
     width: 80%;
-    color: @on-primary;
+    color: @neutral;
     font-size: 10vh;
 }
 </style>

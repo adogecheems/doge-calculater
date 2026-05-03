@@ -16,8 +16,8 @@ export default {
 
 <style lang="less" scoped>
 .button {
-    width: 20vh;
-    height: 20vh;
+    width: 22vh;
+    height: 22vh;
     border-radius: 7vh;
     justify-content: center;
     align-items: center;

@@ -102,7 +102,7 @@ export default {
 .display {
     width: 100vw;
     height: 30vh;
-    padding: 0 7vh 0 5vh;
+    padding: 2.5vh 7vh 0 5vh;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
